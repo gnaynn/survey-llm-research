@@ -1,0 +1,29 @@
+# 비밀 정보
+.env
+
+# 데이터 (KGSS 원자료·가공본은 저장소에 올리지 않음)
+data/*
+!data/README.md
+
+# 실험 산출물 (포함 범위 결정 전까지 제외)
+*.csv
+*.jsonl
+*.log
+*.json
+*.sav
+*.pdf
+*.png
+*.bak*
+
+# 환경/캐시
+__pycache__/
+*.pyc
+.cache/
+.venv/
+venv/
+.DS_Store
+.ipynb_checkpoints/
+
+# 단, 포스터 그림과 PDF는 포함
+!figures/*.png
+!docs/*.pdf
